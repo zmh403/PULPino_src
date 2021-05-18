@@ -19,8 +19,8 @@ module core_region
     parameter AXI_ID_MASTER_WIDTH  = 10,
     parameter AXI_ID_SLAVE_WIDTH   = 10,
     parameter AXI_USER_WIDTH       = 0,
-    parameter DATA_RAM_SIZE        = 4096, // in bytes
-    parameter INSTR_RAM_SIZE       = 4096, // in bytes
+    parameter DATA_RAM_SIZE        = 16384, // in bytes
+    parameter INSTR_RAM_SIZE       = 16384, // in bytes
     //parameter DATA_RAM_SIZE        = 32768, // in bytes
     //parameter INSTR_RAM_SIZE       = 32768, // in bytes
     parameter USE_ZERO_RISCY       = 0,
